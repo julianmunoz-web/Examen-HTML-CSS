@@ -1,0 +1,217 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f8f1e8;
+    color: #3d2920;
+}
+
+header {
+    background: #4b2e20;
+    color: white;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h2 {
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #e9b87c;
+}
+
+.portada {
+    min-height: 380px;
+    background-image: url("https://espressoinsider.com/images/blog/espresso_beans_lattes.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    color: white;
+}
+
+.portada div {
+    background: rgba(50, 30, 20, 0.75);
+    padding: 30px;
+    max-width: 550px;
+}
+
+.portada h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.portada p {
+    font-size: 18px;
+}
+
+.boton {
+    display: inline-block;
+    margin-top: 15px;
+    background: #b77b4b;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.boton:hover {
+    background: #7c4d2e;
+}
+
+.presentacion {
+    text-align: center;
+    padding: 35px 20px;
+}
+
+.presentacion p {
+    max-width: 650px;
+    margin: auto;
+}
+
+.contenido {
+    display: flex;
+    gap: 30px;
+    padding: 30px 50px;
+}
+
+.productos {
+    flex: 1;
+}
+
+.tarjetas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+article {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px #ddd;
+}
+
+article:hover {
+    transform: translateY(-3px);
+}
+
+article img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+article strong {
+    color: #8b542f;
+}
+
+aside {
+    width: 230px;
+    background: #ead5bd;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.video {
+    text-align: center;
+    padding: 40px;
+}
+
+.video iframe {
+    width: 700px;
+    max-width: 100%;
+    height: 390px;
+    border: none;
+    border-radius: 8px;
+}
+
+.nosotros {
+    max-width: 900px;
+    margin: auto;
+    padding: 50px 30px;
+}
+
+.imagen-nosotros {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.nosotros article {
+    margin-top: 20px;
+}
+
+.formulario {
+    max-width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.imagen-contacto {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, select, textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 12px;
+    background: #6b3e24;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #3d2417;
+}
+
+footer {
+    background: #3d2920;
+    color: white;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    margin: 5px 0;
+}

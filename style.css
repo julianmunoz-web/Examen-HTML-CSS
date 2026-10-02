@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f8f1e8;
+    color: #3d2920;
+}
+
+header {
+    background: #4b2e20;
+    color: white;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h2 {
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #e9b87c;
+}
